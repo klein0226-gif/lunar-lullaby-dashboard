@@ -1,0 +1,101 @@
+{
+  "updated": "2026-04-05 20:36",
+  "channel": {
+    "name": "Lunar Lullaby",
+    "subscribers": "2",
+    "total_videos": "6",
+    "total_views": "267",
+    "status": "connected"
+  },
+  "videos": [
+    {
+      "title": "8 Hours Deep Sleep Piano - Fireflies in a Dreamy Flower Field | Calm Sleep Music, Relaxing Piano",
+      "date": "2026-03-31",
+      "views": "8",
+      "likes": "0",
+      "comments": "0",
+      "privacy": "public",
+      "url": "https://youtu.be/Iwqvh2ZC6Ko"
+    },
+    {
+      "title": "8 Hours Rain Sounds for Sleeping - Relaxing Rain in a Peaceful Garden | Deep Sleep Music",
+      "date": "2026-03-30",
+      "views": "86",
+      "likes": "0",
+      "comments": "0",
+      "privacy": "public",
+      "url": "https://youtu.be/3UFGCtuL2pE"
+    },
+    {
+      "title": "[깊은 잠] 벚꽃 달빛 아래 흐르는 몽환 피아노 — 8시간 수면음악",
+      "date": "2026-03-28",
+      "views": "4",
+      "likes": "0",
+      "comments": "0",
+      "privacy": "public",
+      "url": "https://youtu.be/eQsiIxL1VGk"
+    },
+    {
+      "title": "[깊은 잠] 깊은 숲속 폭포와 가야금 — 8시간 수면음악",
+      "date": "2026-03-26",
+      "views": "152",
+      "likes": "3",
+      "comments": "3",
+      "privacy": "public",
+      "url": "https://youtu.be/zSoxBAduFV4"
+    },
+    {
+      "title": "8 Hours Piano & Gayageum Sleep Music 🌙 Peaceful Night by the Lantern Lake | Lunar Lullaby",
+      "date": "2026-03-19",
+      "views": "12",
+      "likes": "0",
+      "comments": "0",
+      "privacy": "public",
+      "url": "https://youtu.be/GdrzZyZu-F4"
+    },
+    {
+      "title": "🌙 8 Hours Piano, Cello & Violin Sleep Music | Moonlit Koi Pond | Deep Sleep, Relaxation",
+      "date": "2026-03-15",
+      "views": "10",
+      "likes": "0",
+      "comments": "1",
+      "privacy": "public",
+      "url": "https://youtu.be/2xnDW5vfl6Y"
+    }
+  ],
+  "suno": {
+    "status": "running",
+    "credits": "?",
+    "limit": "?"
+  },
+  "token": {
+    "status": "valid",
+    "has_refresh": true
+  },
+  "disk": [
+    {
+      "name": "GPLI1",
+      "size_gb": 8.31
+    },
+    {
+      "name": "GPLI2",
+      "size_gb": 3.95
+    },
+    {
+      "name": "GPLI3",
+      "size_gb": 6.42
+    },
+    {
+      "name": "GPLI4",
+      "size_gb": 3.46
+    },
+    {
+      "name": "GPLI5",
+      "size_gb": 6.55
+    },
+    {
+      "name": "GPLI6",
+      "size_gb": 3.09
+    }
+  ]
+}
