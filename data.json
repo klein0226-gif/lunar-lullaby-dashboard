@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-05 21:30",
+  "updated": "2026-04-05 22:00",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "Fall asleep to peaceful instrumental melodies under the moonlight 🌙\nCalming sleep music crafted for deep rest and peaceful nights.",
@@ -26,7 +26,7 @@
       "duration": "8:00:01",
       "duration_iso": "PT8H1S",
       "definition": "hd",
-      "thumbnail": "https://i.ytimg.com/vi/FD6gcT0kF00/hqdefault.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/FD6gcT0kF00/maxresdefault.jpg",
       "privacy": "public",
       "url": "https://youtu.be/FD6gcT0kF00",
       "tags": [
@@ -265,7 +265,7 @@
     "ram_total": "15Gi",
     "ram_used": "3.1Gi",
     "ram_avail": "12Gi",
-    "uptime": "up 17 hours, 21 minutes"
+    "uptime": "up 17 hours, 50 minutes"
   },
   "best_video": {
     "title": "[깊은 잠] 깊은 숲속 폭포와 가야금 — 8시간 수면음악",
@@ -302,7 +302,7 @@
     "duration": "8:00:01",
     "duration_iso": "PT8H1S",
     "definition": "hd",
-    "thumbnail": "https://i.ytimg.com/vi/FD6gcT0kF00/hqdefault.jpg",
+    "thumbnail": "https://i.ytimg.com/vi/FD6gcT0kF00/maxresdefault.jpg",
     "privacy": "public",
     "url": "https://youtu.be/FD6gcT0kF00",
     "tags": [
