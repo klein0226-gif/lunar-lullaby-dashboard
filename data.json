@@ -1,101 +1,309 @@
 {
-  "updated": "2026-04-05 20:36",
+  "updated": "2026-04-05 20:43",
   "channel": {
     "name": "Lunar Lullaby",
+    "description": "Fall asleep to peaceful instrumental melodies under the moonlight 🌙\nCalming sleep music crafted for deep rest and peaceful nights.",
+    "thumbnail": "https://yt3.ggpht.com/qGglOfpxD_p38l6fBpDFoGiA4Ry-ib6KTtM1uwn4IPu3CW67_tyAIF9X4PUAAraHzJpETt0s_Q=s240-c-k-c0x00ffffff-no-rj",
     "subscribers": "2",
     "total_videos": "6",
     "total_views": "267",
+    "hidden_subs": false,
+    "created": "2026-03-15",
+    "country": "",
+    "keywords": "",
     "status": "connected"
   },
   "videos": [
     {
       "title": "8 Hours Deep Sleep Piano - Fireflies in a Dreamy Flower Field | Calm Sleep Music, Relaxing Piano",
       "date": "2026-03-31",
-      "views": "8",
-      "likes": "0",
-      "comments": "0",
+      "days_ago": 5,
+      "views": 8,
+      "likes": 0,
+      "comments": 0,
+      "avg_daily_views": 1.6,
+      "like_ratio": 0.0,
+      "duration": "8:00:01",
+      "duration_iso": "PT8H1S",
+      "definition": "hd",
+      "thumbnail": "https://i.ytimg.com/vi/Iwqvh2ZC6Ko/maxresdefault.jpg",
       "privacy": "public",
-      "url": "https://youtu.be/Iwqvh2ZC6Ko"
+      "url": "https://youtu.be/Iwqvh2ZC6Ko",
+      "tags": [
+        "8 hour sleep music",
+        "Lunar Lullaby",
+        "ambient sleep",
+        "calm piano sleep",
+        "celestial piano"
+      ]
     },
     {
       "title": "8 Hours Rain Sounds for Sleeping - Relaxing Rain in a Peaceful Garden | Deep Sleep Music",
       "date": "2026-03-30",
-      "views": "86",
-      "likes": "0",
-      "comments": "0",
+      "days_ago": 6,
+      "views": 86,
+      "likes": 0,
+      "comments": 0,
+      "avg_daily_views": 14.3,
+      "like_ratio": 0.0,
+      "duration": "8:00:01",
+      "duration_iso": "PT8H1S",
+      "definition": "hd",
+      "thumbnail": "https://i.ytimg.com/vi/3UFGCtuL2pE/maxresdefault.jpg",
       "privacy": "public",
-      "url": "https://youtu.be/3UFGCtuL2pE"
+      "url": "https://youtu.be/3UFGCtuL2pE",
+      "tags": [
+        "8 hour rain sounds",
+        "8시간 수면음악",
+        "ASMR rain",
+        "Lunar Lullaby",
+        "deep sleep music"
+      ]
     },
     {
       "title": "[깊은 잠] 벚꽃 달빛 아래 흐르는 몽환 피아노 — 8시간 수면음악",
       "date": "2026-03-28",
-      "views": "4",
-      "likes": "0",
-      "comments": "0",
+      "days_ago": 8,
+      "views": 4,
+      "likes": 0,
+      "comments": 0,
+      "avg_daily_views": 0.5,
+      "like_ratio": 0.0,
+      "duration": "8:30:21",
+      "duration_iso": "PT8H30M21S",
+      "definition": "hd",
+      "thumbnail": "https://i.ytimg.com/vi/eQsiIxL1VGk/maxresdefault.jpg",
       "privacy": "public",
-      "url": "https://youtu.be/eQsiIxL1VGk"
+      "url": "https://youtu.be/eQsiIxL1VGk",
+      "tags": [
+        "8시간",
+        "ambient",
+        "lullaby",
+        "relaxing piano",
+        "sleep music"
+      ]
     },
     {
       "title": "[깊은 잠] 깊은 숲속 폭포와 가야금 — 8시간 수면음악",
       "date": "2026-03-26",
-      "views": "152",
-      "likes": "3",
-      "comments": "3",
+      "days_ago": 10,
+      "views": 152,
+      "likes": 3,
+      "comments": 3,
+      "avg_daily_views": 15.2,
+      "like_ratio": 2.0,
+      "duration": "8:00:00",
+      "duration_iso": "PT8H",
+      "definition": "hd",
+      "thumbnail": "https://i.ytimg.com/vi/zSoxBAduFV4/maxresdefault.jpg",
       "privacy": "public",
-      "url": "https://youtu.be/zSoxBAduFV4"
+      "url": "https://youtu.be/zSoxBAduFV4",
+      "tags": [
+        "8 hour sleep",
+        "8시간수면",
+        "Lunar Lullaby",
+        "gayageum",
+        "piano lullaby"
+      ]
     },
     {
       "title": "8 Hours Piano & Gayageum Sleep Music 🌙 Peaceful Night by the Lantern Lake | Lunar Lullaby",
       "date": "2026-03-19",
-      "views": "12",
-      "likes": "0",
-      "comments": "0",
+      "days_ago": 17,
+      "views": 12,
+      "likes": 0,
+      "comments": 0,
+      "avg_daily_views": 0.7,
+      "like_ratio": 0.0,
+      "duration": "8:22:24",
+      "duration_iso": "PT8H22M24S",
+      "definition": "hd",
+      "thumbnail": "https://i.ytimg.com/vi/GdrzZyZu-F4/maxresdefault.jpg",
       "privacy": "public",
-      "url": "https://youtu.be/GdrzZyZu-F4"
+      "url": "https://youtu.be/GdrzZyZu-F4",
+      "tags": [
+        "8 hours",
+        "deep sleep",
+        "gayageum",
+        "instrumental",
+        "lullaby"
+      ]
     },
     {
       "title": "🌙 8 Hours Piano, Cello & Violin Sleep Music | Moonlit Koi Pond | Deep Sleep, Relaxation",
       "date": "2026-03-15",
-      "views": "10",
-      "likes": "0",
-      "comments": "1",
+      "days_ago": 21,
+      "views": 10,
+      "likes": 0,
+      "comments": 1,
+      "avg_daily_views": 0.5,
+      "like_ratio": 0.0,
+      "duration": "7:59:53",
+      "duration_iso": "PT7H59M53S",
+      "definition": "hd",
+      "thumbnail": "https://i.ytimg.com/vi/2xnDW5vfl6Y/maxresdefault.jpg",
       "privacy": "public",
-      "url": "https://youtu.be/2xnDW5vfl6Y"
+      "url": "https://youtu.be/2xnDW5vfl6Y",
+      "tags": [
+        "8 hours",
+        "calm music",
+        "cello",
+        "deep sleep",
+        "koi pond"
+      ]
     }
   ],
   "suno": {
     "status": "running",
     "credits": "?",
-    "limit": "?"
+    "limit": "?",
+    "period": "month"
   },
   "token": {
     "status": "valid",
-    "has_refresh": true
+    "has_refresh": true,
+    "expiry": "2026-04-05T12:09:29.532082"
   },
   "disk": [
     {
       "name": "GPLI1",
-      "size_gb": 8.31
+      "size_gb": 8.31,
+      "file_count": 34,
+      "extensions": {
+        ".mp4": 5,
+        ".mp3": 26,
+        ".aac": 2,
+        ".txt": 1
+      }
     },
     {
       "name": "GPLI2",
-      "size_gb": 3.95
+      "size_gb": 3.95,
+      "file_count": 27,
+      "extensions": {
+        ".mp4": 3,
+        ".mp3": 24
+      }
     },
     {
       "name": "GPLI3",
-      "size_gb": 6.42
+      "size_gb": 6.42,
+      "file_count": 51,
+      "extensions": {
+        ".jpg": 1,
+        ".txt": 4,
+        ".sh": 1,
+        ".json": 3,
+        ".mp3": 38,
+        ".mp4": 4
+      }
     },
     {
       "name": "GPLI4",
-      "size_gb": 3.46
+      "size_gb": 3.46,
+      "file_count": 28,
+      "extensions": {
+        ".png": 1,
+        ".json": 1,
+        ".mp3": 25,
+        ".mp4": 1
+      }
     },
     {
       "name": "GPLI5",
-      "size_gb": 6.55
+      "size_gb": 6.55,
+      "file_count": 65,
+      "extensions": {
+        ".png": 2,
+        ".mp4": 4,
+        ".mp3": 52,
+        ".db": 1,
+        ".txt": 4,
+        ".aac": 2
+      }
     },
     {
       "name": "GPLI6",
-      "size_gb": 3.09
+      "size_gb": 3.09,
+      "file_count": 31,
+      "extensions": {
+        ".mp4": 2,
+        ".mp3": 26,
+        ".txt": 2,
+        ".aac": 1
+      }
+    }
+  ],
+  "system": {
+    "disk_total": "3.7T",
+    "disk_used": "244G",
+    "disk_avail": "3.5T",
+    "disk_pct": "7%",
+    "ram_total": "15Gi",
+    "ram_used": "3.2Gi",
+    "ram_avail": "12Gi",
+    "uptime": "up 16 hours, 37 minutes"
+  },
+  "best_video": {
+    "title": "[깊은 잠] 깊은 숲속 폭포와 가야금 — 8시간 수면음악",
+    "date": "2026-03-26",
+    "days_ago": 10,
+    "views": 152,
+    "likes": 3,
+    "comments": 3,
+    "avg_daily_views": 15.2,
+    "like_ratio": 2.0,
+    "duration": "8:00:00",
+    "duration_iso": "PT8H",
+    "definition": "hd",
+    "thumbnail": "https://i.ytimg.com/vi/zSoxBAduFV4/maxresdefault.jpg",
+    "privacy": "public",
+    "url": "https://youtu.be/zSoxBAduFV4",
+    "tags": [
+      "8 hour sleep",
+      "8시간수면",
+      "Lunar Lullaby",
+      "gayageum",
+      "piano lullaby"
+    ]
+  },
+  "worst_video": {
+    "title": "[깊은 잠] 벚꽃 달빛 아래 흐르는 몽환 피아노 — 8시간 수면음악",
+    "date": "2026-03-28",
+    "days_ago": 8,
+    "views": 4,
+    "likes": 0,
+    "comments": 0,
+    "avg_daily_views": 0.5,
+    "like_ratio": 0.0,
+    "duration": "8:30:21",
+    "duration_iso": "PT8H30M21S",
+    "definition": "hd",
+    "thumbnail": "https://i.ytimg.com/vi/eQsiIxL1VGk/maxresdefault.jpg",
+    "privacy": "public",
+    "url": "https://youtu.be/eQsiIxL1VGk",
+    "tags": [
+      "8시간",
+      "ambient",
+      "lullaby",
+      "relaxing piano",
+      "sleep music"
+    ]
+  },
+  "growth": {},
+  "history": [
+    {
+      "date": "2026-04-05",
+      "total_views": "267",
+      "subscribers": "2",
+      "videos": {
+        "https://youtu.be/Iwqvh2ZC6Ko": 8,
+        "https://youtu.be/3UFGCtuL2pE": 86,
+        "https://youtu.be/eQsiIxL1VGk": 4,
+        "https://youtu.be/zSoxBAduFV4": 152,
+        "https://youtu.be/GdrzZyZu-F4": 12,
+        "https://youtu.be/2xnDW5vfl6Y": 10
+      }
     }
   ]
 }

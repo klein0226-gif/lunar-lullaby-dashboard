@@ -6,162 +6,307 @@
 <title>Lunar Lullaby Dashboard</title>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:#0f0f23; color:#eee; font-family:'Segoe UI','Apple SD Gothic Neo',sans-serif; padding:16px; min-height:100vh; }
+  body { background:#0a0a1a; color:#e0e0e0; font-family:'Segoe UI','Apple SD Gothic Neo',sans-serif; padding:12px; min-height:100vh; }
 
-  .header { text-align:center; margin-bottom:24px; padding:20px 0; }
-  .header h1 { font-size:22px; color:#e0d4ff; }
-  .header .time { color:#666; font-size:12px; margin-top:6px; }
-  .header .time #update-time { color:#888; }
+  /* Header */
+  .header { text-align:center; padding:20px 0 16px; }
+  .header .ch-thumb { width:64px; height:64px; border-radius:50%; border:2px solid #7c4dff; margin-bottom:8px; }
+  .header h1 { font-size:22px; color:#e0d4ff; margin-bottom:2px; }
+  .header .ch-desc { font-size:11px; color:#666; max-width:400px; margin:0 auto; }
+  .header .time { color:#555; font-size:11px; margin-top:8px; }
 
-  .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:20px; }
-  .card { background:#16213e; border-radius:12px; padding:16px; text-align:center; }
-  .card h3 { font-size:11px; color:#888; text-transform:uppercase; margin-bottom:6px; letter-spacing:1px; }
-  .card .value { font-size:28px; font-weight:bold; color:#e0d4ff; }
-  .card .sub { font-size:11px; color:#666; margin-top:2px; }
+  /* Stats Cards */
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:16px; }
+  .stat { background:linear-gradient(135deg,#16213e,#1a1a3e); border-radius:12px; padding:14px 10px; text-align:center; }
+  .stat .label { font-size:10px; color:#888; text-transform:uppercase; letter-spacing:1px; }
+  .stat .val { font-size:26px; font-weight:bold; color:#e0d4ff; margin:4px 0 0; }
+  .stat .diff { font-size:11px; margin-top:2px; }
+  .stat .diff.up { color:#4CAF50; }
+  .stat .diff.down { color:#f44336; }
+  .stat .diff.neutral { color:#666; }
 
-  .status-row { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:20px; }
-  .status-item { background:#16213e; border-radius:10px; padding:12px; display:flex; align-items:center; gap:10px; }
-  .dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
-  .dot.green { background:#4CAF50; box-shadow:0 0 6px #4CAF50; }
-  .dot.red { background:#f44336; box-shadow:0 0 6px #f44336; }
-  .dot.yellow { background:#ff9800; box-shadow:0 0 6px #ff9800; }
-  .status-label { font-size:13px; font-weight:bold; }
-  .status-sub { font-size:11px; color:#888; }
+  /* Status Bar */
+  .status-bar { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:16px; }
+  .sb-item { background:#111b30; border-radius:10px; padding:10px 12px; display:flex; align-items:center; gap:8px; }
+  .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+  .dot.on { background:#4CAF50; box-shadow:0 0 8px #4CAF5088; }
+  .dot.off { background:#f44336; box-shadow:0 0 8px #f4433688; }
+  .sb-text { font-size:12px; font-weight:600; }
+  .sb-sub { font-size:10px; color:#888; }
 
-  .section { background:#16213e; border-radius:12px; padding:16px; margin-bottom:16px; }
-  .section h2 { font-size:14px; color:#e0d4ff; margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid #2a2a4a; }
+  /* Section */
+  .section { background:#111b30; border-radius:12px; padding:16px; margin-bottom:14px; }
+  .section h2 { font-size:13px; color:#b388ff; margin-bottom:12px; padding-bottom:6px; border-bottom:1px solid #1e2d50; display:flex; justify-content:space-between; align-items:center; }
+  .section h2 .tag { font-size:10px; color:#666; font-weight:normal; }
 
-  .video-item { padding:10px 0; border-bottom:1px solid #1a1a3a; }
-  .video-item:last-child { border-bottom:none; }
-  .video-title { font-size:13px; margin-bottom:4px; }
-  .video-title a { color:#9db4ff; text-decoration:none; }
-  .video-title a:hover { text-decoration:underline; }
-  .video-meta { display:flex; gap:12px; font-size:11px; color:#888; flex-wrap:wrap; }
-  .video-meta .views { color:#e0d4ff; font-weight:bold; }
+  /* Best/Worst */
+  .highlight-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px; }
+  .highlight { background:#111b30; border-radius:12px; padding:14px; }
+  .highlight .hl-label { font-size:10px; color:#888; text-transform:uppercase; margin-bottom:6px; }
+  .highlight .hl-title { font-size:12px; color:#9db4ff; margin-bottom:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .highlight .hl-views { font-size:22px; font-weight:bold; color:#e0d4ff; }
+  .highlight .hl-sub { font-size:10px; color:#666; margin-top:2px; }
+  .highlight.best { border-left:3px solid #4CAF50; }
+  .highlight.worst { border-left:3px solid #ff9800; }
 
-  .badge { display:inline-block; padding:1px 6px; border-radius:4px; font-size:10px; margin-right:4px; }
-  .badge.public { background:#1b5e20; color:#a5d6a7; }
-  .badge.private { background:#b71c1c; color:#ef9a9a; }
+  /* Video Card */
+  .vid-card { display:flex; gap:12px; padding:12px 0; border-bottom:1px solid #162040; }
+  .vid-card:last-child { border-bottom:none; }
+  .vid-thumb { width:120px; height:68px; border-radius:6px; object-fit:cover; flex-shrink:0; background:#1a1a3a; }
+  .vid-info { flex:1; min-width:0; }
+  .vid-title { font-size:12px; margin-bottom:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .vid-title a { color:#9db4ff; text-decoration:none; }
+  .vid-metrics { display:flex; gap:6px; flex-wrap:wrap; margin-top:4px; }
+  .metric { background:#0d1525; padding:2px 8px; border-radius:4px; font-size:10px; color:#aaa; }
+  .metric b { color:#e0d4ff; }
+  .metric.hot { background:#1b3a1b; color:#a5d6a7; }
+  .vid-bar-bg { height:4px; background:#0d1525; border-radius:2px; margin-top:6px; }
+  .vid-bar { height:100%; background:linear-gradient(90deg,#7c4dff,#b388ff); border-radius:2px; }
+  .vid-date { font-size:10px; color:#555; margin-top:2px; }
 
-  .disk-bar-wrap { margin:6px 0; }
-  .disk-label { font-size:12px; margin-bottom:2px; }
-  .disk-bar-bg { background:#1a1a3a; border-radius:4px; height:14px; overflow:hidden; }
-  .disk-bar { background:linear-gradient(90deg,#7c4dff,#b388ff); height:100%; border-radius:4px; transition:width 0.3s; }
+  /* Tags */
+  .tag-list { display:flex; gap:4px; flex-wrap:wrap; margin-top:4px; }
+  .tag-chip { font-size:9px; background:#1a1a3a; color:#888; padding:1px 6px; border-radius:3px; }
 
-  .loading { text-align:center; padding:40px; color:#666; }
-  .spinner { display:inline-block; width:24px; height:24px; border:3px solid #333; border-top-color:#7c4dff;
-    border-radius:50%; animation:spin 0.8s linear infinite; margin-bottom:8px; }
-  @keyframes spin { to { transform:rotate(360deg); } }
+  /* Disk */
+  .disk-item { margin:8px 0; }
+  .disk-header { display:flex; justify-content:space-between; font-size:11px; margin-bottom:3px; }
+  .disk-header .name { font-weight:bold; }
+  .disk-header .size { color:#888; }
+  .disk-bar-bg { height:8px; background:#0d1525; border-radius:4px; overflow:hidden; }
+  .disk-bar { height:100%; border-radius:4px; }
+  .disk-bar.purple { background:linear-gradient(90deg,#7c4dff,#b388ff); }
+  .disk-ext { font-size:9px; color:#666; margin-top:2px; }
 
-  .error-box { background:#2a1a1a; border:1px solid #f44336; border-radius:8px; padding:12px; color:#ef9a9a; font-size:13px; }
+  /* System */
+  .sys-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+  .sys-item { text-align:center; }
+  .sys-item .sys-val { font-size:18px; font-weight:bold; color:#e0d4ff; }
+  .sys-item .sys-label { font-size:10px; color:#888; }
 
-  @media (max-width:600px) {
-    .cards { grid-template-columns:repeat(3,1fr); gap:8px; }
-    .card .value { font-size:22px; }
-    .card h3 { font-size:10px; }
-    .status-row { grid-template-columns:1fr; }
+  /* Chart (simple bar) */
+  .chart { display:flex; align-items:flex-end; gap:4px; height:80px; margin-top:8px; }
+  .chart-bar-wrap { flex:1; display:flex; flex-direction:column; align-items:center; }
+  .chart-bar { width:100%; background:linear-gradient(0deg,#7c4dff,#b388ff); border-radius:3px 3px 0 0; min-height:2px; }
+  .chart-label { font-size:9px; color:#666; margin-top:4px; }
+  .chart-val { font-size:9px; color:#aaa; margin-bottom:2px; }
+
+  .badge { display:inline-block; padding:1px 5px; border-radius:3px; font-size:9px; margin-right:3px; }
+  .badge.pub { background:#1b5e20; color:#a5d6a7; }
+  .badge.pri { background:#4a1a1a; color:#ef9a9a; }
+
+  .loading { text-align:center; padding:30px; color:#555; }
+  .spinner { display:inline-block; width:20px; height:20px; border:2px solid #222; border-top-color:#7c4dff; border-radius:50%; animation:spin .7s linear infinite; }
+  @keyframes spin { to{transform:rotate(360deg)} }
+
+  .footer { text-align:center; padding:16px; font-size:10px; color:#333; }
+
+  @media(max-width:600px) {
+    .stats { grid-template-columns:repeat(2,1fr); }
+    .stat .val { font-size:20px; }
+    .highlight-row { grid-template-columns:1fr; }
+    .vid-thumb { width:90px; height:51px; }
+    .sys-grid { grid-template-columns:repeat(3,1fr); }
+    .status-bar { grid-template-columns:1fr; }
   }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Lunar Lullaby</h1>
-  <div class="time">마지막 업데이트: <span id="update-time">로딩 중...</span></div>
+  <img class="ch-thumb" id="ch-thumb" src="" alt="">
+  <h1 id="ch-name">Lunar Lullaby</h1>
+  <div class="ch-desc" id="ch-desc"></div>
+  <div class="time">업데이트: <span id="update-time">-</span></div>
 </div>
 
-<div class="cards">
-  <div class="card"><h3>구독자</h3><div class="value" id="subs">-</div><div class="sub">명</div></div>
-  <div class="card"><h3>총 조회수</h3><div class="value" id="views">-</div><div class="sub">회</div></div>
-  <div class="card"><h3>영상</h3><div class="value" id="vcount">-</div><div class="sub">개</div></div>
-</div>
+<div class="stats" id="stats-cards"></div>
 
-<div class="status-row">
-  <div class="status-item">
-    <div class="dot" id="dot-yt"></div>
-    <div><div class="status-label">유튜브</div><div class="status-sub" id="yt-status">확인 중</div></div>
-  </div>
-  <div class="status-item">
-    <div class="dot" id="dot-suno"></div>
-    <div><div class="status-label">Suno</div><div class="status-sub" id="suno-status">확인 중</div></div>
-  </div>
-  <div class="status-item">
-    <div class="dot" id="dot-token"></div>
-    <div><div class="status-label">토큰</div><div class="status-sub" id="token-status">확인 중</div></div>
-  </div>
+<div class="status-bar" id="status-bar"></div>
+
+<div class="highlight-row" id="highlights"></div>
+
+<div class="section" id="history-section" style="display:none">
+  <h2>일별 조회수 추이 <span class="tag">최근 7일</span></h2>
+  <div class="chart" id="history-chart"></div>
 </div>
 
 <div class="section">
-  <h2>영상 목록</h2>
-  <div id="video-list"><div class="loading"><div class="spinner"></div><br>로딩 중...</div></div>
+  <h2>영상 목록 <span class="tag" id="vid-count"></span></h2>
+  <div id="video-list"><div class="loading"><div class="spinner"></div></div></div>
 </div>
 
 <div class="section">
-  <h2>디스크 사용량</h2>
-  <div id="disk-info"><div class="loading">로딩 중...</div></div>
+  <h2>디스크 사용량 <span class="tag" id="disk-total"></span></h2>
+  <div id="disk-info"></div>
 </div>
+
+<div class="section">
+  <h2>시스템</h2>
+  <div class="sys-grid" id="sys-info"></div>
+</div>
+
+<div class="footer">Lunar Lullaby Dashboard &middot; 30분마다 자동 갱신</div>
 
 <script>
 function loadData() {
   fetch('data.json?t=' + Date.now())
     .then(r => r.json())
     .then(render)
-    .catch(() => {
-      document.getElementById('video-list').innerHTML = '<div class="error-box">데이터를 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</div>';
+    .catch(e => {
+      document.getElementById('video-list').innerHTML = '<div style="color:#f44;padding:12px">데이터 로드 실패</div>';
     });
 }
 
 function render(d) {
+  const ch = d.channel || {};
+  const g = d.growth || {};
+
+  // Header
+  if (ch.thumbnail) { document.getElementById('ch-thumb').src = ch.thumbnail; }
+  document.getElementById('ch-name').textContent = ch.name || 'Lunar Lullaby';
+  document.getElementById('ch-desc').textContent = ch.description || '';
   document.getElementById('update-time').textContent = d.updated;
 
-  // Cards
-  document.getElementById('subs').textContent = Number(d.channel.subscribers).toLocaleString();
-  document.getElementById('views').textContent = Number(d.channel.total_views).toLocaleString();
-  document.getElementById('vcount').textContent = d.channel.total_videos;
+  // Stats
+  const viewsDiff = g.views_diff != null ? g.views_diff : null;
+  const subsDiff = g.subs_diff != null ? g.subs_diff : null;
+  const avgDaily = d.videos && d.videos.length > 0
+    ? Math.round(d.videos.reduce((s,v) => s + v.avg_daily_views, 0))
+    : 0;
+  const totalLikes = d.videos ? d.videos.reduce((s,v) => s + v.likes, 0) : 0;
 
-  // Status dots
-  setDot('dot-yt', d.channel.status === 'connected');
-  document.getElementById('yt-status').textContent = d.channel.status === 'connected' ? d.channel.name : 'Error';
+  document.getElementById('stats-cards').innerHTML =
+    statCard('구독자', num(ch.subscribers), subsDiff, '명') +
+    statCard('총 조회수', num(ch.total_views), viewsDiff, '회') +
+    statCard('영상', ch.total_videos, null, '개') +
+    statCard('일 평균 조회', num(avgDaily), null, '회/일');
 
-  setDot('dot-suno', d.suno.status === 'running');
-  document.getElementById('suno-status').textContent = d.suno.status === 'running'
-    ? d.suno.credits + '/' + d.suno.limit
-    : 'OFF';
+  // Status
+  const suno = d.suno || {};
+  const token = d.token || {};
+  document.getElementById('status-bar').innerHTML =
+    statusItem(ch.status === 'connected', '유튜브', ch.status === 'connected' ? '연결됨' : '오류') +
+    statusItem(suno.status === 'running', 'Suno API', suno.status === 'running' ? suno.credits + ' / ' + suno.limit + ' 크레딧' : '꺼져 있음') +
+    statusItem(token.status === 'valid', '토큰', token.status === 'valid' ? '자동 갱신 중' : '만료!');
 
-  setDot('dot-token', d.token.status === 'valid');
-  document.getElementById('token-status').textContent = d.token.status === 'valid' ? 'Auto Refresh' : 'Expired!';
+  // Best / Worst
+  const best = d.best_video;
+  const worst = d.worst_video;
+  let hlHtml = '';
+  if (best) {
+    hlHtml += '<div class="highlight best"><div class="hl-label">BEST 영상</div>' +
+      '<div class="hl-title">' + best.title + '</div>' +
+      '<div class="hl-views">' + num(best.views) + '회</div>' +
+      '<div class="hl-sub">일 평균 ' + best.avg_daily_views + '회 &middot; 좋아요 ' + best.like_ratio + '%</div></div>';
+  }
+  if (worst && worst.url !== (best||{}).url) {
+    hlHtml += '<div class="highlight worst"><div class="hl-label">성장 필요</div>' +
+      '<div class="hl-title">' + worst.title + '</div>' +
+      '<div class="hl-views">' + num(worst.views) + '회</div>' +
+      '<div class="hl-sub">일 평균 ' + worst.avg_daily_views + '회 &middot; ' + worst.days_ago + '일 전 업로드</div></div>';
+  }
+  document.getElementById('highlights').innerHTML = hlHtml;
+
+  // History chart
+  const hist = d.history || [];
+  if (hist.length >= 2) {
+    document.getElementById('history-section').style.display = '';
+    const views = hist.map(h => parseInt(h.total_views));
+    const diffs = [];
+    for (let i = 1; i < views.length; i++) diffs.push(views[i] - views[i-1]);
+    const maxDiff = Math.max(...diffs, 1);
+    let chartHtml = '';
+    for (let i = 0; i < diffs.length; i++) {
+      const pct = Math.max(diffs[i] / maxDiff * 100, 3);
+      chartHtml += '<div class="chart-bar-wrap"><div class="chart-val">+' + diffs[i] + '</div>' +
+        '<div class="chart-bar" style="height:' + pct + '%"></div>' +
+        '<div class="chart-label">' + hist[i+1].date.slice(5) + '</div></div>';
+    }
+    document.getElementById('history-chart').innerHTML = chartHtml;
+  }
 
   // Videos
+  const vids = d.videos || [];
+  const maxViews = Math.max(...vids.map(v => v.views), 1);
+  document.getElementById('vid-count').textContent = vids.length + '개';
   let vh = '';
-  d.videos.forEach(v => {
-    const badge = v.privacy === 'public' ? '<span class="badge public">공개</span>' : '<span class="badge private">비공개</span>';
-    vh += '<div class="video-item">' +
-      '<div class="video-title">' + badge + '<a href="' + v.url + '" target="_blank">' + v.title + '</a></div>' +
-      '<div class="video-meta"><span class="views">' + Number(v.views).toLocaleString() + '회</span>' +
-      '<span>' + v.likes + ' likes</span><span>' + v.date + '</span></div></div>';
+  vids.forEach(v => {
+    const badge = v.privacy === 'public' ? '<span class="badge pub">공개</span>' : '<span class="badge pri">비공개</span>';
+    const barPct = Math.max(v.views / maxViews * 100, 1);
+    const isHot = v.avg_daily_views >= 10;
+    let tags = '';
+    if (v.tags && v.tags.length) {
+      tags = '<div class="tag-list">' + v.tags.map(t => '<span class="tag-chip">#' + t + '</span>').join('') + '</div>';
+    }
+    vh += '<div class="vid-card">' +
+      (v.thumbnail ? '<img class="vid-thumb" src="' + v.thumbnail + '" loading="lazy">' : '<div class="vid-thumb"></div>') +
+      '<div class="vid-info">' +
+      '<div class="vid-title">' + badge + '<a href="' + v.url + '" target="_blank">' + v.title + '</a></div>' +
+      '<div class="vid-metrics">' +
+        '<span class="metric' + (isHot ? ' hot' : '') + '"><b>' + num(v.views) + '</b> 조회</span>' +
+        '<span class="metric"><b>' + v.likes + '</b> 좋아요</span>' +
+        '<span class="metric"><b>' + v.comments + '</b> 댓글</span>' +
+        '<span class="metric"><b>' + v.avg_daily_views + '</b>/일</span>' +
+        '<span class="metric"><b>' + v.like_ratio + '%</b> 좋아요율</span>' +
+        '<span class="metric"><b>' + v.duration + '</b></span>' +
+      '</div>' +
+      '<div class="vid-bar-bg"><div class="vid-bar" style="width:' + barPct + '%"></div></div>' +
+      '<div class="vid-date">' + v.date + ' (' + v.days_ago + '일 전)</div>' +
+      tags +
+      '</div></div>';
   });
   document.getElementById('video-list').innerHTML = vh;
 
   // Disk
+  const disks = d.disk || [];
+  let totalGb = 0;
   let dh = '';
-  let total = 0;
-  d.disk.forEach(f => {
-    total += f.size_gb;
-    const pct = Math.min(f.size_gb / 15 * 100, 100);
-    dh += '<div class="disk-bar-wrap"><div class="disk-label">' + f.name + ' — ' + f.size_gb + ' GB</div>' +
-      '<div class="disk-bar-bg"><div class="disk-bar" style="width:' + pct + '%"></div></div></div>';
+  const maxDisk = Math.max(...disks.map(f => f.size_gb), 1);
+  disks.forEach(f => {
+    totalGb += f.size_gb;
+    const pct = Math.max(f.size_gb / maxDisk * 100, 2);
+    const extStr = Object.entries(f.extensions || {}).map(([k,v]) => k + ':' + v).join(' ');
+    dh += '<div class="disk-item"><div class="disk-header"><span class="name">' + f.name + '</span>' +
+      '<span class="size">' + f.size_gb + ' GB &middot; ' + f.file_count + '개 파일</span></div>' +
+      '<div class="disk-bar-bg"><div class="disk-bar purple" style="width:' + pct + '%"></div></div>' +
+      '<div class="disk-ext">' + extStr + '</div></div>';
   });
-  dh = '<div style="font-size:12px;color:#888;margin-bottom:8px">Total: ' + total.toFixed(1) + ' GB</div>' + dh;
+  document.getElementById('disk-total').textContent = totalGb.toFixed(1) + ' GB';
   document.getElementById('disk-info').innerHTML = dh;
+
+  // System
+  const sys = d.system || {};
+  document.getElementById('sys-info').innerHTML =
+    sysItem(sys.disk_used || '?', 'D드라이브 ' + (sys.disk_pct || '')) +
+    sysItem(sys.ram_used || '?', 'RAM (' + (sys.ram_total || '?') + ')') +
+    sysItem(sys.uptime || '?', '가동시간');
 }
 
-function setDot(id, ok) {
-  const el = document.getElementById(id);
-  el.className = 'dot ' + (ok ? 'green' : 'red');
+function statCard(label, val, diff, unit) {
+  let diffHtml = '';
+  if (diff != null) {
+    const cls = diff > 0 ? 'up' : diff < 0 ? 'down' : 'neutral';
+    const sign = diff > 0 ? '+' : '';
+    diffHtml = '<div class="diff ' + cls + '">' + sign + num(diff) + ' 어제 대비</div>';
+  }
+  return '<div class="stat"><div class="label">' + label + '</div><div class="val">' + val + '</div>' +
+    '<div class="label">' + unit + '</div>' + diffHtml + '</div>';
 }
+
+function statusItem(ok, label, sub) {
+  return '<div class="sb-item"><div class="dot ' + (ok ? 'on' : 'off') + '"></div>' +
+    '<div><div class="sb-text">' + label + '</div><div class="sb-sub">' + sub + '</div></div></div>';
+}
+
+function sysItem(val, label) {
+  return '<div class="sys-item"><div class="sys-val">' + val + '</div><div class="sys-label">' + label + '</div></div>';
+}
+
+function num(n) { return Number(n).toLocaleString(); }
 
 loadData();
-setInterval(loadData, 300000); // 5분마다 자동 새로고침
+setInterval(loadData, 300000);
 </script>
 </body>
 </html>
