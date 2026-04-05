@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-05 21:00",
+  "updated": "2026-04-05 21:08",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "Fall asleep to peaceful instrumental melodies under the moonlight 🌙\nCalming sleep music crafted for deep rest and peaceful nights.",
@@ -26,8 +26,8 @@
       "duration": "8:00:01",
       "duration_iso": "PT8H1S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/FD6gcT0kF00/hqdefault.jpg?sqp=CMCdyc4G&rs=AOn4CLCwiueNqxqeKFwb3AdIpjpzauRkrQ",
-      "privacy": "private",
+      "thumbnail": "https://i.ytimg.com/vi/FD6gcT0kF00/hqdefault.jpg",
+      "privacy": "public",
       "url": "https://youtu.be/FD6gcT0kF00",
       "tags": [
         "8시간수면음악",
@@ -35,29 +35,6 @@
         "calm piano",
         "deep sleep",
         "relaxing"
-      ]
-    },
-    {
-      "title": "8 Hours Deep Sleep Music - Moonlit Cat by the Window | Calm Piano Sleep Music, Relaxing Night",
-      "date": "2026-04-05",
-      "days_ago": 0,
-      "views": 0,
-      "likes": 0,
-      "comments": 0,
-      "avg_daily_views": 0.0,
-      "like_ratio": 0.0,
-      "duration": "0:00",
-      "duration_iso": "P0D",
-      "definition": "sd",
-      "thumbnail": "https://i9.ytimg.com/vi/ravIRbnBSm0/hqdefault.jpg?sqp=CMCdyc4G&rs=AOn4CLBg7sduZ7uhIQA33Pak_K50oRmT-Q",
-      "privacy": "private",
-      "url": "https://youtu.be/ravIRbnBSm0",
-      "tags": [
-        "8 hours sleep",
-        "Lunar Lullaby",
-        "calm piano",
-        "deep sleep",
-        "lullaby"
       ]
     },
     {
@@ -208,7 +185,7 @@
   "token": {
     "status": "valid",
     "has_refresh": true,
-    "expiry": "2026-04-05T12:09:29.532082"
+    "expiry": "2026-04-05T13:08:29.073935"
   },
   "disk": [
     {
@@ -286,9 +263,9 @@
     "disk_avail": "3.5T",
     "disk_pct": "7%",
     "ram_total": "15Gi",
-    "ram_used": "3.2Gi",
+    "ram_used": "3.0Gi",
     "ram_avail": "12Gi",
-    "uptime": "up 16 hours, 53 minutes"
+    "uptime": "up 17 hours, 1 minute"
   },
   "best_video": {
     "title": "[깊은 잠] 깊은 숲속 폭포와 가야금 — 8시간 수면음악",
@@ -325,8 +302,8 @@
     "duration": "8:00:01",
     "duration_iso": "PT8H1S",
     "definition": "hd",
-    "thumbnail": "https://i9.ytimg.com/vi/FD6gcT0kF00/hqdefault.jpg?sqp=CMCdyc4G&rs=AOn4CLCwiueNqxqeKFwb3AdIpjpzauRkrQ",
-    "privacy": "private",
+    "thumbnail": "https://i.ytimg.com/vi/FD6gcT0kF00/hqdefault.jpg",
+    "privacy": "public",
     "url": "https://youtu.be/FD6gcT0kF00",
     "tags": [
       "8시간수면음악",
@@ -344,7 +321,6 @@
       "subscribers": "2",
       "videos": {
         "https://youtu.be/FD6gcT0kF00": 0,
-        "https://youtu.be/ravIRbnBSm0": 0,
         "https://youtu.be/Iwqvh2ZC6Ko": 8,
         "https://youtu.be/3UFGCtuL2pE": 86,
         "https://youtu.be/eQsiIxL1VGk": 4,
