@@ -69,9 +69,10 @@
   },
   {
     "date": "2026-09-13",
-    "total_views": "4140",
+    "total_views": "4147",
     "subscribers": "22",
     "videos": {
+      "https://youtu.be/7MAweK0NbSk": 0,
       "https://youtu.be/mbGaUPfDW9Y": 0,
       "https://youtu.be/uN7fv1JgHO8": 7,
       "https://youtu.be/k3S0Izsn1o0": 0,
@@ -90,8 +91,7 @@
       "https://youtu.be/Ht7qogIcjh0": 1,
       "https://youtu.be/BuvpU8lxsro": 0,
       "https://youtu.be/MfrnPfyObUc": 0,
-      "https://youtu.be/BPr3UDFBxrU": 197,
-      "https://youtu.be/ohCAOCy55z0": 156
+      "https://youtu.be/BPr3UDFBxrU": 197
     }
   }
 ]
