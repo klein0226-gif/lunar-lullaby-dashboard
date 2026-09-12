@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-13 04:42",
+  "updated": "2026-09-13 05:13",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "🌙 잠 못 이루는 밤을 위한 수면음악 채널입니다.\n\n사극 OST처럼 애잔한 클래식 피아노, 아기를 위한 오르골 자장가,\n빗소리와 물소리가 함께하는 8시간 수면음악을 만들어 올립니다.\n\n광고 없이 밤새 흐르도록 만들었습니다.\n편안한 잠과 깊은 휴식이 필요하실 때 찾아와 주세요 💜\n\n━━━━━━━━━━━━━━━━━━━━\n🎵 이런 밤에 들어보세요\n• 생각이 멈추지 않아 뒤척이는 밤\n• 아기를 재워야 하는 밤\n• 깊은 명상과 호흡이 필요할 때\n• 빗소리를 들으며 잠들고 싶을 때\n━━━━━━━━━━━━━━━━━━━━\n\n🌙 Sleep music for restless nights.\nGentle piano, music box lullabies, and 8-hour soundscapes —\nno ads, playing all night long.\n\n▶ 본 채널의 음악은 Suno AI를 활용해 제작되었습니다.",
     "thumbnail": "https://yt3.ggpht.com/qGglOfpxD_p38l6fBpDFoGiA4Ry-ib6KTtM1uwn4IPu3CW67_tyAIF9X4PUAAraHzJpETt0s_Q=s240-c-k-c0x00ffffff-no-rj",
     "subscribers": "22",
     "total_videos": "41",
-    "total_views": "4140",
+    "total_views": "4147",
     "hidden_subs": false,
     "created": "2026-03-15",
     "country": "KR",
@@ -26,7 +26,7 @@
       "duration": "8:06:21",
       "duration_iso": "PT8H6M21S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=CJDVltUG&rs=AOn4CLA7Xzw6uYAxLnOp9VktEe8n0Rvgmg",
+      "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=CJjjltUG&rs=AOn4CLB4VUmPRpWQIS5jF2KVwJhkmI1Z7w",
       "privacy": "private",
       "url": "https://youtu.be/7MAweK0NbSk",
       "tags": [
@@ -187,7 +187,7 @@
       "duration": "8:52:37",
       "duration_iso": "PT8H52M37S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CJDVltUG&rs=AOn4CLAJ-G6BQeRhlagX4VMf-Mh9VcR5bw",
+      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CJjjltUG&rs=AOn4CLCsyDHxnAcrxUUdTPMrDIrbjupjsA",
       "privacy": "private",
       "url": "https://youtu.be/1T1ltSmI_wA",
       "tags": [
@@ -256,7 +256,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CJDVltUG&rs=AOn4CLBZqb_cD3sZbZ-Je9V17NvL98juvQ",
+      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CJjjltUG&rs=AOn4CLC6YmEcRvTTpHJq0AQv_G-z-lcsiw",
       "privacy": "private",
       "url": "https://youtu.be/DF5idxREYRY",
       "tags": [
@@ -279,7 +279,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CJDVltUG&rs=AOn4CLDQY7Cq3SzfVr290EUpAMhQyvCIhA",
+      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CJjjltUG&rs=AOn4CLCL6DC3S0PF3GeumvL2V7N_i6wS3Q",
       "privacy": "private",
       "url": "https://youtu.be/ckFtpbioc8U",
       "tags": [
@@ -302,7 +302,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=CJDVltUG&rs=AOn4CLDPi6niZkkHo_BeUZtpCe84Sj_-HA",
+      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=CJjjltUG&rs=AOn4CLANbWzhB1V5AMjmCLZKGeWwhSWxvg",
       "privacy": "private",
       "url": "https://youtu.be/bboknITy6bM",
       "tags": [
@@ -481,7 +481,7 @@
   "token": {
     "status": "valid",
     "has_refresh": true,
-    "expiry": "2026-09-12T20:11:54.531902"
+    "expiry": "2026-09-12T21:12:54.565165"
   },
   "disk": [
     {
@@ -701,7 +701,7 @@
     "ram_total": "15Gi",
     "ram_used": "1.1Gi",
     "ram_avail": "14Gi",
-    "uptime": "up 1 day, 3 hours, 54 minutes"
+    "uptime": "up 1 day, 4 hours, 25 minutes"
   },
   "best_video": {
     "title": "달빛 호수의 벚꽃 🌙 8시간 수면음악 #Shorts",
@@ -738,7 +738,7 @@
     "duration": "8:06:21",
     "duration_iso": "PT8H6M21S",
     "definition": "hd",
-    "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=CJDVltUG&rs=AOn4CLA7Xzw6uYAxLnOp9VktEe8n0Rvgmg",
+    "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=CJjjltUG&rs=AOn4CLB4VUmPRpWQIS5jF2KVwJhkmI1Z7w",
     "privacy": "private",
     "url": "https://youtu.be/7MAweK0NbSk",
     "tags": [
@@ -750,7 +750,7 @@
     ]
   },
   "growth": {
-    "views_diff": 0,
+    "views_diff": 7,
     "subs_diff": 0,
     "date_from": "2026-09-12"
   },
@@ -825,7 +825,7 @@
     },
     {
       "date": "2026-09-13",
-      "total_views": "4140",
+      "total_views": "4147",
       "subscribers": "22",
       "videos": {
         "https://youtu.be/7MAweK0NbSk": 0,
