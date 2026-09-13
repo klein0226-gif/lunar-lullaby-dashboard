@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13 12:54",
+  "updated": "2026-09-13 13:25",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "🌙 잠 못 이루는 밤을 위한 수면음악 채널입니다.\n\n사극 OST처럼 애잔한 클래식 피아노, 아기를 위한 오르골 자장가,\n빗소리와 물소리가 함께하는 8시간 수면음악을 만들어 올립니다.\n\n광고 없이 밤새 흐르도록 만들었습니다.\n편안한 잠과 깊은 휴식이 필요하실 때 찾아와 주세요 💜\n\n━━━━━━━━━━━━━━━━━━━━\n🎵 이런 밤에 들어보세요\n• 생각이 멈추지 않아 뒤척이는 밤\n• 아기를 재워야 하는 밤\n• 깊은 명상과 호흡이 필요할 때\n• 빗소리를 들으며 잠들고 싶을 때\n━━━━━━━━━━━━━━━━━━━━\n\n🌙 Sleep music for restless nights.\nGentle piano, music box lullabies, and 8-hour soundscapes —\nno ads, playing all night long.\n\n▶ 본 채널의 음악은 Suno AI를 활용해 제작되었습니다.",
@@ -26,7 +26,7 @@
       "duration": "8:06:21",
       "duration_iso": "PT8H6M21S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=COi6mNUG&rs=AOn4CLC2wNUUUwwl4q4bE93cCT1NbwLgXg",
+      "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=CJzLmNUG&rs=AOn4CLBw-zhrt8s-4v_XNX4Vh_hOMm07og",
       "privacy": "private",
       "url": "https://youtu.be/7MAweK0NbSk",
       "tags": [
@@ -41,10 +41,10 @@
       "title": "[아기 자장가] 아기 방의 모빌과 오르골 🌙 오르골 자장가 8시간 · 신생아 태교 수면음악 · 광고없음",
       "date": "2026-09-12",
       "days_ago": 1,
-      "views": 2,
+      "views": 3,
       "likes": 0,
       "comments": 0,
-      "avg_daily_views": 2.0,
+      "avg_daily_views": 3.0,
       "like_ratio": 0.0,
       "duration": "8:13:36",
       "duration_iso": "PT8H13M36S",
@@ -187,7 +187,7 @@
       "duration": "8:52:37",
       "duration_iso": "PT8H52M37S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=COi6mNUG&rs=AOn4CLD9xyso8K1LgHUOG6C-S3xSE1nfXA",
+      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CJzLmNUG&rs=AOn4CLBnKfn6ZQUM_s5bZWHfbKIYsWAHuQ",
       "privacy": "private",
       "url": "https://youtu.be/1T1ltSmI_wA",
       "tags": [
@@ -256,7 +256,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=COi6mNUG&rs=AOn4CLCpBgtRFzDYeuev518yD4ApMTqNpg",
+      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CJzLmNUG&rs=AOn4CLAPzPYoWHnnCoB37oCCvTTAtT4DPA",
       "privacy": "private",
       "url": "https://youtu.be/DF5idxREYRY",
       "tags": [
@@ -279,7 +279,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=COi6mNUG&rs=AOn4CLCI-cbaHFWfc-ROyoDXon8hpoqNmg",
+      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CJzLmNUG&rs=AOn4CLDs22WueJDyal3xXaAngxFNPOTp-g",
       "privacy": "private",
       "url": "https://youtu.be/ckFtpbioc8U",
       "tags": [
@@ -302,7 +302,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=COi6mNUG&rs=AOn4CLACqE3kbDsrXQhGG_nQQJY2YY9UOg",
+      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=CJzLmNUG&rs=AOn4CLAk9qBhRVHoV9zpJV9PCQAYqv7GOg",
       "privacy": "private",
       "url": "https://youtu.be/bboknITy6bM",
       "tags": [
@@ -481,7 +481,7 @@
   "token": {
     "status": "valid",
     "has_refresh": true,
-    "expiry": "2026-09-13T04:23:30.104092"
+    "expiry": "2026-09-13T05:25:12.544815"
   },
   "disk": [
     {
@@ -701,7 +701,7 @@
     "ram_total": "15Gi",
     "ram_used": "1.3Gi",
     "ram_avail": "14Gi",
-    "uptime": "up 1 day, 12 hours, 1 minute"
+    "uptime": "up 1 day, 12 hours, 31 minutes"
   },
   "best_video": {
     "title": "달빛 호수의 벚꽃 🌙 8시간 수면음악 #Shorts",
@@ -738,7 +738,7 @@
     "duration": "8:06:21",
     "duration_iso": "PT8H6M21S",
     "definition": "hd",
-    "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=COi6mNUG&rs=AOn4CLC2wNUUUwwl4q4bE93cCT1NbwLgXg",
+    "thumbnail": "https://i9.ytimg.com/vi/7MAweK0NbSk/maxresdefault.jpg?sqp=CJzLmNUG&rs=AOn4CLBw-zhrt8s-4v_XNX4Vh_hOMm07og",
     "privacy": "private",
     "url": "https://youtu.be/7MAweK0NbSk",
     "tags": [
@@ -829,7 +829,7 @@
       "subscribers": "22",
       "videos": {
         "https://youtu.be/7MAweK0NbSk": 0,
-        "https://youtu.be/mbGaUPfDW9Y": 2,
+        "https://youtu.be/mbGaUPfDW9Y": 3,
         "https://youtu.be/uN7fv1JgHO8": 7,
         "https://youtu.be/k3S0Izsn1o0": 0,
         "https://youtu.be/Lt9L03p9Aw8": 0,
