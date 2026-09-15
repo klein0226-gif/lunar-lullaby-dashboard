@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15 22:41",
+  "updated": "2026-09-15 23:13",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "🌙 잠 못 이루는 밤을 위한 수면음악 채널입니다.\n\n사극 OST처럼 애잔한 클래식 피아노, 아기를 위한 오르골 자장가,\n빗소리와 물소리가 함께하는 8시간 수면음악을 만들어 올립니다.\n\n광고 없이 밤새 흐르도록 만들었습니다.\n편안한 잠과 깊은 휴식이 필요하실 때 찾아와 주세요 💜\n\n━━━━━━━━━━━━━━━━━━━━\n🎵 이런 밤에 들어보세요\n• 생각이 멈추지 않아 뒤척이는 밤\n• 아기를 재워야 하는 밤\n• 깊은 명상과 호흡이 필요할 때\n• 빗소리를 들으며 잠들고 싶을 때\n━━━━━━━━━━━━━━━━━━━━\n\n🌙 Sleep music for restless nights.\nGentle piano, music box lullabies, and 8-hour soundscapes —\nno ads, playing all night long.\n\n▶ 본 채널의 음악은 Suno AI를 활용해 제작되었습니다.",
@@ -233,7 +233,7 @@
       "duration": "8:52:37",
       "duration_iso": "PT8H52M37S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CLCVpdUG&rs=AOn4CLBlQLHFsgyuEL68RI1IsWPhlfofAA",
+      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CLijpdUG&rs=AOn4CLBzSI9CohaRDtRH9ebt3H7eNIT-bQ",
       "privacy": "private",
       "url": "https://youtu.be/1T1ltSmI_wA",
       "tags": [
@@ -302,7 +302,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CLCVpdUG&rs=AOn4CLCUteeNHNBy8L2ykEoJ_gAp2lSnDw",
+      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CLijpdUG&rs=AOn4CLBh3ecjk3KQhpiffUDpeKDJNEn7Xg",
       "privacy": "private",
       "url": "https://youtu.be/DF5idxREYRY",
       "tags": [
@@ -325,7 +325,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CLCVpdUG&rs=AOn4CLAKjdEwuJAMc1MH933JLqKjScuxFw",
+      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CLijpdUG&rs=AOn4CLD8vRWPoORWNs6C7vZb1v3APZ3iMA",
       "privacy": "private",
       "url": "https://youtu.be/ckFtpbioc8U",
       "tags": [
@@ -348,7 +348,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=CLCVpdUG&rs=AOn4CLCYT1KQ-Thq7TYlMs0MiiudJJ2zxw",
+      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=CLijpdUG&rs=AOn4CLCEpAdir1FICFgYLOuMZtBTdFC_kg",
       "privacy": "private",
       "url": "https://youtu.be/bboknITy6bM",
       "tags": [
@@ -481,7 +481,7 @@
   "token": {
     "status": "valid",
     "has_refresh": true,
-    "expiry": "2026-09-15T14:09:13.631977"
+    "expiry": "2026-09-15T15:13:30.168372"
   },
   "disk": [
     {
@@ -701,7 +701,7 @@
     "ram_total": "15Gi",
     "ram_used": "1.5Gi",
     "ram_avail": "14Gi",
-    "uptime": "up 22 hours, 53 minutes"
+    "uptime": "up 23 hours, 24 minutes"
   },
   "best_video": {
     "title": "[깊은 잠] 달빛 내려앉은 호수, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
