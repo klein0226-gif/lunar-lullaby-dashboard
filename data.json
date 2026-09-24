@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25 02:42",
+  "updated": "2026-09-25 03:13",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "🌙 잠 못 이루는 밤을 위한 수면음악 채널입니다.\n\n사극 OST처럼 애잔한 클래식 피아노, 아기를 위한 오르골 자장가,\n빗소리와 물소리가 함께하는 8시간 수면음악을 만들어 올립니다.\n\n광고 없이 밤새 흐르도록 만들었습니다.\n편안한 잠과 깊은 휴식이 필요하실 때 찾아와 주세요 💜\n\n━━━━━━━━━━━━━━━━━━━━\n🎵 이런 밤에 들어보세요\n• 생각이 멈추지 않아 뒤척이는 밤\n• 아기를 재워야 하는 밤\n• 깊은 명상과 호흡이 필요할 때\n• 빗소리를 들으며 잠들고 싶을 때\n━━━━━━━━━━━━━━━━━━━━\n\n🌙 Sleep music for restless nights.\nGentle piano, music box lullabies, and 8-hour soundscapes —\nno ads, playing all night long.\n\n▶ 본 채널의 음악은 Suno AI를 활용해 제작되었습니다.",
@@ -14,6 +14,29 @@
     "status": "connected"
   },
   "videos": [
+    {
+      "title": "[깊은 잠] 달빛 내려앉은 호수, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
+      "date": "2026-09-24",
+      "days_ago": 1,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "avg_daily_views": 0.0,
+      "like_ratio": 0.0,
+      "duration": "0:00",
+      "duration_iso": "P0D",
+      "definition": "sd",
+      "thumbnail": "https://i9.ytimg.com/vi/T2XaT5AfHn0/hqdefault.jpg?sqp=CPjO1dUG&rs=AOn4CLB5Vo62NDUu7rt6dvXf2B_IM9LmRw",
+      "privacy": "private",
+      "url": "https://youtu.be/T2XaT5AfHn0",
+      "tags": [
+        "8 hours sleep music",
+        "calming music",
+        "deep sleep music",
+        "insomnia relief",
+        "lullaby"
+      ]
+    },
     {
       "title": "(광고없음) 잠 잘 오는 숲속 강가 잔잔한 빗소리 24시간 🌧 불면증·스트레스 완화 | Rain Sounds for Sleep ASMR",
       "date": "2026-09-24",
@@ -348,7 +371,7 @@
       "duration": "8:52:37",
       "duration_iso": "PT8H52M37S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CPDA1dUG&rs=AOn4CLDCMPf5-Esp1dL4yudyl5CRpUZTqw",
+      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CPjO1dUG&rs=AOn4CLA1BmxkXTywWxyw4HFRzec9FJA9UQ",
       "privacy": "private",
       "url": "https://youtu.be/1T1ltSmI_wA",
       "tags": [
@@ -417,7 +440,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CPDA1dUG&rs=AOn4CLBYx1qpK9we8Pgm8xKyCRp7dToJVA",
+      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CPjO1dUG&rs=AOn4CLA2o259NJ0umzku8qWiMdqY1Ae3UA",
       "privacy": "private",
       "url": "https://youtu.be/DF5idxREYRY",
       "tags": [
@@ -440,32 +463,9 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CPDA1dUG&rs=AOn4CLBEmbbtoQYhHoABrzf46ippcaPvsA",
+      "thumbnail": "https://i9.ytimg.com/vi/ckFtpbioc8U/maxresdefault.jpg?sqp=CPjO1dUG&rs=AOn4CLAV32GC2_8bIQk9S69hvxPSYuCe8Q",
       "privacy": "private",
       "url": "https://youtu.be/ckFtpbioc8U",
-      "tags": [
-        "asmr",
-        "relaxing",
-        "shorts",
-        "sleep music",
-        "불면증"
-      ]
-    },
-    {
-      "title": "정자에 앉아 듣는 밤 🌙 8시간 수면음악 #Shorts",
-      "date": "2026-08-24",
-      "days_ago": 32,
-      "views": 0,
-      "likes": 0,
-      "comments": 0,
-      "avg_daily_views": 0.0,
-      "like_ratio": 0.0,
-      "duration": "0:49",
-      "duration_iso": "PT49S",
-      "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/bboknITy6bM/maxresdefault.jpg?sqp=CPDA1dUG&rs=AOn4CLAX2wldwtxkA9Jw84JcLzeZzhhWEA",
-      "privacy": "private",
-      "url": "https://youtu.be/bboknITy6bM",
       "tags": [
         "asmr",
         "relaxing",
@@ -695,13 +695,13 @@
   ],
   "system": {
     "disk_total": "3.7T",
-    "disk_used": "642G",
+    "disk_used": "654G",
     "disk_avail": "3.1T",
     "disk_pct": "18%",
     "ram_total": "15Gi",
     "ram_used": "3.6Gi",
-    "ram_avail": "12Gi",
-    "uptime": "up 12 hours, 13 minutes"
+    "ram_avail": "11Gi",
+    "uptime": "up 12 hours, 43 minutes"
   },
   "best_video": {
     "title": "[깊은 잠] 별이 쏟아지는 산정상, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
@@ -727,26 +727,26 @@
     ]
   },
   "worst_video": {
-    "title": "(광고없음) 잠 잘 오는 숲속 강가 잔잔한 빗소리 24시간 🌧 불면증·스트레스 완화 | Rain Sounds for Sleep ASMR",
-    "date": "2026-09-21",
-    "days_ago": 4,
+    "title": "[깊은 잠] 달빛 내려앉은 호수, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
+    "date": "2026-09-24",
+    "days_ago": 1,
     "views": 0,
     "likes": 0,
     "comments": 0,
     "avg_daily_views": 0.0,
     "like_ratio": 0.0,
-    "duration": "11:55:00",
-    "duration_iso": "PT11H55M",
-    "definition": "hd",
-    "thumbnail": "https://i.ytimg.com/vi/qGzJXSwXdsI/maxresdefault.jpg",
-    "privacy": "public",
-    "url": "https://youtu.be/qGzJXSwXdsI",
+    "duration": "0:00",
+    "duration_iso": "P0D",
+    "definition": "sd",
+    "thumbnail": "https://i9.ytimg.com/vi/T2XaT5AfHn0/hqdefault.jpg?sqp=CPjO1dUG&rs=AOn4CLB5Vo62NDUu7rt6dvXf2B_IM9LmRw",
+    "privacy": "private",
+    "url": "https://youtu.be/T2XaT5AfHn0",
     "tags": [
-      "24/7 live",
-      "24시간 라이브",
-      "asmr",
-      "asmr rain",
-      "heavy rain sounds"
+      "8 hours sleep music",
+      "calming music",
+      "deep sleep music",
+      "insomnia relief",
+      "lullaby"
     ]
   },
   "growth": {
@@ -922,6 +922,7 @@
       "total_views": "4747",
       "subscribers": "23",
       "videos": {
+        "https://youtu.be/T2XaT5AfHn0": 0,
         "https://youtu.be/Wv6ZvkxwgsY": 2,
         "https://youtu.be/osXxl1INVc4": 1,
         "https://youtu.be/MbVwV3TPeNI": 13,
@@ -940,8 +941,7 @@
         "https://youtu.be/iNQ1bNJzGL4": 98,
         "https://youtu.be/dYd4VAXc8fg": 57,
         "https://youtu.be/DF5idxREYRY": 0,
-        "https://youtu.be/ckFtpbioc8U": 0,
-        "https://youtu.be/bboknITy6bM": 0
+        "https://youtu.be/ckFtpbioc8U": 0
       }
     }
   ]
