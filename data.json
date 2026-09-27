@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27 08:47",
+  "updated": "2026-09-27 09:17",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "🌙 잠 못 이루는 밤을 위한 수면음악 채널입니다.\n\n사극 OST처럼 애잔한 클래식 피아노, 아기를 위한 오르골 자장가,\n빗소리와 물소리가 함께하는 8시간 수면음악을 만들어 올립니다.\n\n광고 없이 밤새 흐르도록 만들었습니다.\n편안한 잠과 깊은 휴식이 필요하실 때 찾아와 주세요 💜\n\n━━━━━━━━━━━━━━━━━━━━\n🎵 이런 밤에 들어보세요\n• 생각이 멈추지 않아 뒤척이는 밤\n• 아기를 재워야 하는 밤\n• 깊은 명상과 호흡이 필요할 때\n• 빗소리를 들으며 잠들고 싶을 때\n━━━━━━━━━━━━━━━━━━━━\n\n🌙 Sleep music for restless nights.\nGentle piano, music box lullabies, and 8-hour soundscapes —\nno ads, playing all night long.\n\n▶ 본 채널의 음악은 Suno AI를 활용해 제작되었습니다.",
@@ -26,7 +26,7 @@
       "duration": "8:13:36",
       "duration_iso": "PT8H13M36S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/bg0CJuX5oaU/maxresdefault.jpg?sqp=CPyx4dUG&rs=AOn4CLDTqf2yDnRDL6wHG77rZjIlACVWOQ",
+      "thumbnail": "https://i9.ytimg.com/vi/bg0CJuX5oaU/maxresdefault.jpg?sqp=CITA4dUG&rs=AOn4CLBtsTngwUO_MrWdZcuvkdgz4agmhg",
       "privacy": "private",
       "url": "https://youtu.be/bg0CJuX5oaU",
       "tags": [
@@ -110,10 +110,10 @@
       "title": "[아기 자장가] 달빛 스며드는 아기 침대 🌙 오르골 자장가 8시간 · 신생아 태교 수면음악 · 광고없음",
       "date": "2026-09-22",
       "days_ago": 5,
-      "views": 14,
+      "views": 17,
       "likes": 0,
       "comments": 0,
-      "avg_daily_views": 2.8,
+      "avg_daily_views": 3.4,
       "like_ratio": 0.0,
       "duration": "8:06:21",
       "duration_iso": "PT8H6M21S",
@@ -394,7 +394,7 @@
       "duration": "8:52:37",
       "duration_iso": "PT8H52M37S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CPyx4dUG&rs=AOn4CLD4VWsv8ybkYyJxIonhC6w7XB9t3g",
+      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CITA4dUG&rs=AOn4CLA7Pe4zPCu1LRodH5_tHeZNce9UiA",
       "privacy": "private",
       "url": "https://youtu.be/1T1ltSmI_wA",
       "tags": [
@@ -463,7 +463,7 @@
       "duration": "0:49",
       "duration_iso": "PT49S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CPyx4dUG&rs=AOn4CLD0-tpqiUsDkHjmPyOZA9vwXFxeoA",
+      "thumbnail": "https://i9.ytimg.com/vi/DF5idxREYRY/maxresdefault.jpg?sqp=CITA4dUG&rs=AOn4CLCyOAGdC_Tszepmyn885A2V5tVYNQ",
       "privacy": "private",
       "url": "https://youtu.be/DF5idxREYRY",
       "tags": [
@@ -481,7 +481,7 @@
   "token": {
     "status": "valid",
     "has_refresh": true,
-    "expiry": "2026-09-27T00:16:43.862519"
+    "expiry": "2026-09-27T01:17:43.511631"
   },
   "disk": [
     {
@@ -699,9 +699,9 @@
     "disk_avail": "3.0T",
     "disk_pct": "19%",
     "ram_total": "15Gi",
-    "ram_used": "3.2Gi",
+    "ram_used": "3.1Gi",
     "ram_avail": "12Gi",
-    "uptime": "up 2 days, 16 hours, 22 minutes"
+    "uptime": "up 2 days, 16 hours, 52 minutes"
   },
   "best_video": {
     "title": "[깊은 잠] 별이 쏟아지는 산정상, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
@@ -738,7 +738,7 @@
     "duration": "8:13:36",
     "duration_iso": "PT8H13M36S",
     "definition": "hd",
-    "thumbnail": "https://i9.ytimg.com/vi/bg0CJuX5oaU/maxresdefault.jpg?sqp=CPyx4dUG&rs=AOn4CLDTqf2yDnRDL6wHG77rZjIlACVWOQ",
+    "thumbnail": "https://i9.ytimg.com/vi/bg0CJuX5oaU/maxresdefault.jpg?sqp=CITA4dUG&rs=AOn4CLBtsTngwUO_MrWdZcuvkdgz4agmhg",
     "privacy": "private",
     "url": "https://youtu.be/bg0CJuX5oaU",
     "tags": [
@@ -926,7 +926,7 @@
         "https://youtu.be/T2XaT5AfHn0": 80,
         "https://youtu.be/Wv6ZvkxwgsY": 2,
         "https://youtu.be/osXxl1INVc4": 1,
-        "https://youtu.be/MbVwV3TPeNI": 14,
+        "https://youtu.be/MbVwV3TPeNI": 17,
         "https://youtu.be/qGzJXSwXdsI": 1,
         "https://youtu.be/ar9R2mRc0TQ": 3,
         "https://youtu.be/ci7y0t-w2gc": 17,
