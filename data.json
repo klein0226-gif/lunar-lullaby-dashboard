@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01 10:34",
+  "updated": "2026-10-01 11:05",
   "channel": {
     "name": "Lunar Lullaby",
     "description": "🌙 잠 못 이루는 밤을 위한 수면음악 채널입니다.\n\n사극 OST처럼 애잔한 클래식 피아노, 아기를 위한 오르골 자장가,\n빗소리와 물소리가 함께하는 8시간 수면음악을 만들어 올립니다.\n\n광고 없이 밤새 흐르도록 만들었습니다.\n편안한 잠과 깊은 휴식이 필요하실 때 찾아와 주세요 💜\n\n━━━━━━━━━━━━━━━━━━━━\n🎵 이런 밤에 들어보세요\n• 생각이 멈추지 않아 뒤척이는 밤\n• 아기를 재워야 하는 밤\n• 깊은 명상과 호흡이 필요할 때\n• 빗소리를 들으며 잠들고 싶을 때\n━━━━━━━━━━━━━━━━━━━━\n\n🌙 Sleep music for restless nights.\nGentle piano, music box lullabies, and 8-hour soundscapes —\nno ads, playing all night long.\n\n▶ 본 채널의 음악은 Suno AI를 활용해 제작되었습니다.",
@@ -26,7 +26,7 @@
       "duration": "8:49:57",
       "duration_iso": "PT8H49M57S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/LQlB-Gu54Cs/maxresdefault.jpg?sqp=CJjv9tUG&rs=AOn4CLBGKBpMOkDVzJloy-Hn79zw8iXhUg",
+      "thumbnail": "https://i9.ytimg.com/vi/LQlB-Gu54Cs/maxresdefault.jpg?sqp=CMz_9tUG&rs=AOn4CLByuxzN0n2r7HXYs9L9pqTVDKIPXg",
       "privacy": "private",
       "url": "https://youtu.be/LQlB-Gu54Cs",
       "tags": [
@@ -64,10 +64,10 @@
       "title": "[깊은 잠] 비 내리는 한옥 마당, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
       "date": "2026-09-27",
       "days_ago": 4,
-      "views": 311,
+      "views": 312,
       "likes": 3,
       "comments": 1,
-      "avg_daily_views": 77.8,
+      "avg_daily_views": 78.0,
       "like_ratio": 1.0,
       "duration": "8:13:36",
       "duration_iso": "PT8H13M36S",
@@ -440,7 +440,7 @@
       "duration": "8:52:37",
       "duration_iso": "PT8H52M37S",
       "definition": "hd",
-      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CJjv9tUG&rs=AOn4CLCE9PkQ5LnnxeQOUcs7oO1--bcYrA",
+      "thumbnail": "https://i9.ytimg.com/vi/1T1ltSmI_wA/maxresdefault.jpg?sqp=CMz_9tUG&rs=AOn4CLDTOPUjyUT5NnHeBhKkRNFikvVLKA",
       "privacy": "private",
       "url": "https://youtu.be/1T1ltSmI_wA",
       "tags": [
@@ -695,22 +695,22 @@
   ],
   "system": {
     "disk_total": "3.7T",
-    "disk_used": "701G",
+    "disk_used": "705G",
     "disk_avail": "3.0T",
     "disk_pct": "19%",
     "ram_total": "15Gi",
-    "ram_used": "14Gi",
-    "ram_avail": "742Mi",
-    "uptime": "up 6 days, 16 hours, 4 minutes"
+    "ram_used": "1.4Gi",
+    "ram_avail": "14Gi",
+    "uptime": "up 6 days, 16 hours, 34 minutes"
   },
   "best_video": {
     "title": "[깊은 잠] 비 내리는 한옥 마당, 사극 OST 같은 클래식 피아노 8시간 수면음악 🌙 · 광고없음",
     "date": "2026-09-27",
     "days_ago": 4,
-    "views": 311,
+    "views": 312,
     "likes": 3,
     "comments": 1,
-    "avg_daily_views": 77.8,
+    "avg_daily_views": 78.0,
     "like_ratio": 1.0,
     "duration": "8:13:36",
     "duration_iso": "PT8H13M36S",
@@ -738,7 +738,7 @@
     "duration": "8:49:57",
     "duration_iso": "PT8H49M57S",
     "definition": "hd",
-    "thumbnail": "https://i9.ytimg.com/vi/LQlB-Gu54Cs/maxresdefault.jpg?sqp=CJjv9tUG&rs=AOn4CLBGKBpMOkDVzJloy-Hn79zw8iXhUg",
+    "thumbnail": "https://i9.ytimg.com/vi/LQlB-Gu54Cs/maxresdefault.jpg?sqp=CMz_9tUG&rs=AOn4CLByuxzN0n2r7HXYs9L9pqTVDKIPXg",
     "privacy": "private",
     "url": "https://youtu.be/LQlB-Gu54Cs",
     "tags": [
@@ -924,7 +924,7 @@
       "videos": {
         "https://youtu.be/LQlB-Gu54Cs": 0,
         "https://youtu.be/WoaanJ98N4s": 1,
-        "https://youtu.be/bg0CJuX5oaU": 311,
+        "https://youtu.be/bg0CJuX5oaU": 312,
         "https://youtu.be/T2XaT5AfHn0": 149,
         "https://youtu.be/Wv6ZvkxwgsY": 17,
         "https://youtu.be/osXxl1INVc4": 1,
